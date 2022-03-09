@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Project.Models.User>
+
+@{
+    ViewData["Title"] = "Logout";
+    string login = ViewBag.Login;
+}
+
+
+
+<p>
+    <span>You're logged out</span>
+</p>
+<script hidden>
+    if ("@login" == "false") {
+        localStorage.setItem("login", "false")
+
+}
+</script>

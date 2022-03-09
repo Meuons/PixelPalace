@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Project.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    string login = ViewBag.Login;
+}
+
+<h1>Index</h1>
+
+<p hidden class=hidden>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <img src="@item.ImagePath">
+            </td>
+            <td>
+                
+                <a asp-action="Details" asp-route-id="@item.ProductID">Details</a> |
+                <div hidden class=hidden>
+                <a asp-action="Delete" asp-route-id="@item.ProductID">Delete</a>|
+                </div>
+                <div hidden class=hidden>
+                <a asp-action="Edit" asp-route-id="@item.ProductID">Edit</a> 
+                </div>
+                
+                <form asp-action="Index">
+                <input type="hidden"  name="id" value="@item.ProductID"  />
+                <input type="submit" value="addToCart" class="btn btn-primary" />
+                </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<script hidden>
+    
+
+    if ("@login" == "true") {
+        localStorage.setItem("login", "true")
+
+}
+</script>

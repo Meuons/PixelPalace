@@ -1,0 +1,26 @@
+﻿@using Newtonsoft.Json
+@model Project.Models.Order
+
+@{
+    ViewData["Title"] = "Order Placed";
+   
+
+ 
+}
+
+
+<h4>Order placed</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+       <span>You succesfully placed your order!</span>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

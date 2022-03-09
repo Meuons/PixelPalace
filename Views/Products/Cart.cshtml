@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Project.Models.Product>
+
+@{
+    ViewData["Title"] = "Cart";
+    int totalAmount = 0;
+    int totalPrice = 0;
+}
+
+<h1>Cart</h1>
+
+
+        @if(ViewData["Cart"] != null){
+            <table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                Remove
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in ViewData["Cart"] as IList<Product>) {
+  
+ totalAmount += item.Amount;
+  totalPrice += item.Price;
+   
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+    <td>
+           <form asp-action="Cart">
+        <input type="hidden" />
+             <input type="hidden"  name="id" value="@item.ProductID"  />
+                <input type="submit" value="X" class="btn btn-primary" />
+    </form>
+    </td>
+        </tr>
+}
+    </tbody>
+</table> 
+}
+@if(ViewData["Cart"] != null)
+{
+    @Html.ActionLink(
+    "Checkout",
+    "Create",
+    "Addresses")
+}
+else
+{
+    <span>Cart is empty</span>
+}

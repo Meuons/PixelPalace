@@ -1,0 +1,124 @@
+﻿@using Newtonsoft.Json
+@model Project.Models.Order
+
+@{
+    ViewData["Title"] = "Create";
+   var cart = ViewData["Cart"];
+   var address = JsonConvert.DeserializeObject<Address>(ViewBag.Address);
+    int totalAmount = 0;
+    int totalPrice = 0;
+
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+            Name
+            </th>
+            <th>
+           Amount
+            </th>
+            <th>
+          Price
+            </th>
+            <th>
+                Image
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in cart as IList<Product>) {
+         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+    
+        </tr>
+  
+ totalAmount += item.Amount;
+  totalPrice += item.Price;
+}    
+</tbody>
+</table>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+            Country
+            </th>
+            <th>
+           City
+            </th>
+              <th>
+           Street
+            </th>
+            <th>
+          Zipcode
+            </th>
+            <th>
+                Phone
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+         <tr>
+            <td>
+                @address.Country
+            </td>
+             <td>
+                @address.City
+            </td>
+            <td>
+                @address.Street
+            </td>
+            <td>
+                @address.Zipcode
+            </td>
+               <td>
+                @address.Phone
+            </td>
+    
+        </tr>
+  
+
+</tbody>
+</table>
+    <div>
+       
+            <span>
+                X @totalAmount Items
+            </span>
+             <span>
+               @totalPrice kr
+            </span>
+      </div>
+
+  
+
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="PlaceOrder">
+            <input hidden name=AddressID value="@address.AddressID" />
+                <input type="submit" value="Confirm order" class="btn btn-primary" />
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

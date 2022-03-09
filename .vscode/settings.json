@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net6.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/60978f4a-6e5e-4878-a33b-af0b80eb2717/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/ProjectMom4"
+}
