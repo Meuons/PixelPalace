@@ -1,11 +1,11 @@
 ﻿@model IEnumerable<Project.Models.Product>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Products";
     string login = ViewBag.Login;
 }
 
-<h1>Index</h1>
+<h1>Products</h1>
 
 <p hidden class=hidden>
     <a asp-action="Create">Create New</a>
@@ -15,9 +15,6 @@
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Price)
@@ -35,13 +32,10 @@
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Description)
+                @Html.DisplayFor(modelItem => item.Price) kr
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                <img src="@item.ImagePath">
+                <img alt="thumbnail" class="thumbnail"  src="/@item.ImagePath">
             </td>
             <td>
                 
@@ -55,7 +49,9 @@
                 
                 <form asp-action="Index">
                 <input type="hidden"  name="id" value="@item.ProductID"  />
-                <input type="submit" value="addToCart" class="btn btn-primary" />
+                <diV>
+                <input type="image" src="/img/cart.png" value="addToCart" class="btn btn-primary" />
+                </diV>
                 </form>
             </td>
         </tr>

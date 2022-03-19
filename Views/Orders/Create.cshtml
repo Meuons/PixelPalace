@@ -2,7 +2,7 @@
 @model Project.Models.Order
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create - Order";
    var cart = ViewData["Cart"];
    var address = JsonConvert.DeserializeObject<Address>(ViewBag.Address);
     int totalAmount = 0;
@@ -37,10 +37,10 @@
                 @Html.DisplayFor(modelItem => item.Amount)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Price)
+                @Html.DisplayFor(modelItem => item.Price) kr
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Image)
+           <td>
+               <img alt="thumbnail"  class="thumbnail" src="/@item.ImagePath">
             </td>
     
         </tr>
@@ -113,6 +113,7 @@
     <div class="col-md-4">
         <form asp-action="PlaceOrder">
             <input hidden name=AddressID value="@address.AddressID" />
+            <input hidden name=Email value="@address.Email" />
                 <input type="submit" value="Confirm order" class="btn btn-primary" />
         </form>
     </div>

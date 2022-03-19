@@ -44,10 +44,10 @@
                 @Html.DisplayFor(modelItem => item.Amount)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Price)
+                @Html.DisplayFor(modelItem => item.Price) kr
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Image)
+                <img alt="thumbnail" class="thumbnail" src="/@item.ImagePath">
             </td>
     <td>
            <form asp-action="Cart">
@@ -60,6 +60,8 @@
 }
     </tbody>
 </table> 
+<span>@totalAmount items</span>
+<span>@totalPrice kr</span>
 }
 @if(ViewData["Cart"] != null)
 {

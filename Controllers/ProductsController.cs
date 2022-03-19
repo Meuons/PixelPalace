@@ -35,6 +35,7 @@ namespace Project.Controllers
             {
                 return NotFound();
             }
+            //Add the product to the list and save it to session storage
             product.Amount++;
             var list = new List<Product>();
 
@@ -91,6 +92,7 @@ namespace Project.Controllers
         { 
             if (HttpContext.Session.GetString("cart") != null)
             {
+                //Erase the product with the id from the list and save it to session storage
              var list = JsonConvert.DeserializeObject<List<Product>>(HttpContext.Session.GetString("cart"));
             var item = list.FirstOrDefault(c => c.ProductID == id);
                     int singlePrice = item.Price / item.Amount;
@@ -169,13 +171,13 @@ namespace Project.Controllers
             if (Image != null)
             {
 
-                //Set Key Name
-                string ImageName = Guid.NewGuid().ToString() + Path.GetExtension(Image.FileName);
+                //Save the image and add the search path to the product
+                string ImageName = Image.FileName;
 
-                //Get url To Save
+                
                 string SavePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", ImageName);
 
-                    product.ImagePath = SavePath;
+                    product.ImagePath = "img/" + ImageName;
 
                 using (var stream = new FileStream(SavePath, FileMode.Create))
                 {
@@ -223,7 +225,7 @@ namespace Project.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int? id, [Bind("ProductID,Title,Description,Price,Image")] Product product)
+        public async Task<IActionResult> Edit(int? id, [Bind("ProductID,Title,Description,Price,ImagePath")] Product product, IFormFile Image )
         {
             if (id != product.ProductID)
             {
@@ -232,6 +234,22 @@ namespace Project.Controllers
 
             if (ModelState.IsValid)
             {
+             
+              if(Image != null)
+            {
+                //Update the image and path if it exists
+                string ImageName = Image.FileName;
+
+                
+                string SavePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", ImageName);
+
+                product.ImagePath = "img/" + ImageName;
+
+            using (var stream = new FileStream(SavePath, FileMode.Create))
+            {
+                Image.CopyTo(stream);
+            }
+            }
                 try
                 {
                     _context.Update(product);

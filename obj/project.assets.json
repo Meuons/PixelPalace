@@ -9976,11 +9976,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Måns\\source\\repos\\project\\Project\\Project.csproj",
+      "projectUniqueName": "D:\\Dokument\\ASP.net-webshop\\Project.csproj",
       "projectName": "Project",
-      "projectPath": "C:\\Users\\Måns\\source\\repos\\project\\Project\\Project.csproj",
+      "projectPath": "D:\\Dokument\\ASP.net-webshop\\Project.csproj",
       "packagesPath": "C:\\Users\\Måns\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Måns\\source\\repos\\project\\Project\\obj\\",
+      "outputPath": "D:\\Dokument\\ASP.net-webshop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

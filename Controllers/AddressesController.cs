@@ -57,18 +57,18 @@ namespace Project.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("AddressID,Country,City,Street,Zipcode,Phone")] Address address)
+        public async Task<IActionResult> Create([Bind("AddressID,Country,City,Street,Zipcode,Phone,Email")] Address address)
         {
             bool duplicate = false;
            
-
+              //Prevent duplicate addresses from being created
             if (ModelState.IsValid)
             {
                 var addressList = await _context.Addresses.ToListAsync();
 
                 foreach( var item in addressList)
                 {
-                    if(address.Country == item.Country && address.City == item.City && address.Street == item.Street && address.Phone == item.Phone && address.Zipcode == item.Zipcode)
+                    if(address.Country == item.Country && address.City == item.City && address.Street == item.Street && address.Phone == item.Phone && address.Zipcode == item.Zipcode && address.Email == item.Email)
                     {
                         duplicate = true;
                         HttpContext.Session.SetString("address", JsonConvert.SerializeObject(item));
@@ -86,11 +86,11 @@ namespace Project.Controllers
 
                 
                 
-                return RedirectToAction("Create", "Orders");
+                
                 
             }
 
-            return View(address);
+            return RedirectToAction("Create", "Orders");
         }
 
         // GET: Addresses/Edit/5
@@ -125,7 +125,7 @@ namespace Project.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int? id, [Bind("AddressID,Country,City,Street,Zipcode,Phone")] Address address)
+        public async Task<IActionResult> Edit(int? id, [Bind("AddressID,Country,City,Street,Zipcode,Phone,Email")] Address address)
         {
             if (id != address.AddressID)
             {

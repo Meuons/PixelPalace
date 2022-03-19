@@ -22,8 +22,12 @@ namespace Project.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(string? Username, string? Password)
-        {
+        {   //Check that the username and password match with the ones in the database
             var users = await _context.Users.ToListAsync();
+             if(users.Count == 0)
+            {
+                ViewData["message"] = "No user accounts exist";
+            }
             foreach (var user in users)
             {
                 if (Password == user.Password && Username == user.Username)
@@ -33,7 +37,7 @@ namespace Project.Controllers
                     
                     return RedirectToAction("Index", "Products");
                    
-                    return View();
+                 
                 }
                 else
                 {
@@ -87,15 +91,15 @@ namespace Project.Controllers
         public IActionResult Create()
         {
             
-           /* if (HttpContext.Session.GetString("Logged in") == "true")
-            {*/
+            if (HttpContext.Session.GetString("Logged in") == "true")
+            {
                 return View();
                
-           /* }
+            }
             else
             {
               return RedirectToAction("Login", "");
-            }*/
+            }
             
         }
 
@@ -106,13 +110,37 @@ namespace Project.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("UserID,Username,Password")] User user)
         {
+               bool duplicate = false;
             if (ModelState.IsValid)
             {
-                _context.Add(user);
+                      var usersList = await _context.Users.ToListAsync();
+
+                //Prevent duplicate usernames from being created
+
+                foreach( var item in usersList)
+                {
+                    if(user.Username == item.Username)
+                    {
+                        duplicate = true;
+                        
+                        
+                    }
+                }
+                if(duplicate != true)
+                {
+                _context.Add(user);  
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                 ViewBag.duplicateUser = false;
+                 return RedirectToAction("Login", "Users");
+                }
+                else{
+                    ViewBag.duplicateUser = true;
+                    ;
+                }
+
+               
             }
-            return View(user);
+             return View();
         }
 
         // GET: Users/Edit/5

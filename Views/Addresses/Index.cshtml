@@ -1,14 +1,12 @@
 ﻿@model IEnumerable<Project.Models.Address>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Addresses";
 }
 
 <h1>Address</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
 <table class="table">
     <thead>
         <tr>
@@ -26,6 +24,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Phone)
+            </th>
+               <th>
+                @Html.DisplayNameFor(model => model.Email)
             </th>
             <th></th>
         </tr>
@@ -47,6 +48,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+                 <td>
+                @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.AddressID">Edit</a> |

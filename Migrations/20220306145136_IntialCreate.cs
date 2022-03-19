@@ -54,8 +54,7 @@ namespace Project.Migrations
          UserID = table.Column<int>(type: "INTEGER", nullable: false)
              .Annotation("Sqlite:Autoincrement", true),
          Username = table.Column<string>(type: "TEXT", nullable: true),
-         Password = table.Column<string>(type: "TEXT", nullable: true),
-         Token = table.Column<string>(type: "TEXT", nullable: false)
+         Password = table.Column<string>(type: "TEXT", nullable: true)
      },
      constraints: table =>
      {

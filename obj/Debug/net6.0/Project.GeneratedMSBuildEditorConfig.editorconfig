@@ -8,133 +8,133 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Project
 build_property.RootNamespace = Project
-build_property.ProjectDir = C:\Users\Måns\source\repos\project\Project\
+build_property.ProjectDir = D:\Dokument\ASP.net-webshop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Måns\source\repos\project\Project
+build_property.MSBuildProjectDirectory = D:\Dokument\ASP.net-webshop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Addresses/Create.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Addresses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Addresses/Delete.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Addresses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Addresses/Details.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Addresses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Addresses/Edit.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Addresses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Addresses/Index.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Addresses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Home/Index.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Home/Privacy.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Orders/Create.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Orders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Orders/Delete.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Orders/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Orders/Details.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Orders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Orders/Edit.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Orders/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Orders/Index.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Orders/PlaceOrder.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Orders/PlaceOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFBsYWNlT3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Products/Cart.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Products/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Products/Create.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Products/Delete.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Products/Details.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Products/Edit.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Products/Index.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Shared/Error.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Users/Create.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Users/Delete.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Users/Details.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Users/Edit.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Users/Index.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Users/Login.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Users/Logout.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Users/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/_ViewImports.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/_ViewStart.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Måns/source/repos/project/Project/Views/Shared/_Layout.cshtml]
+[D:/Dokument/ASP.net-webshop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9q8ibpt6yd

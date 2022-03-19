@@ -1,7 +1,7 @@
 ﻿@model Project.Models.Product
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Delete  - Product";
 }
 
 <h1>Delete</h1>
@@ -27,13 +27,13 @@
             @Html.DisplayNameFor(model => model.Price)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
+            @Html.DisplayFor(model => model.Price) kr
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Image)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Image)
+            <img alt="thumbnail"  class="thumbnail"  src="/@Model?.ImagePath">
         </dd>
     </dl>
     

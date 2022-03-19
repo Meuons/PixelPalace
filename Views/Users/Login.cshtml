@@ -1,7 +1,7 @@
 ﻿@model Project.Models.User
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Login";
 }
 
 <h1>Login</h1>
@@ -29,7 +29,7 @@
     </div>
 </div>
 <span>@ViewData["message"]</span>
- <a asp-action="Create">Create new user</a>
+ <a hidden class="hidden" asp-action="Create">Create new user</a>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

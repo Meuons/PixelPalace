@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using Project.Data;
 using Project.Models;
+using System.Net;
+using System.Net.Mail;
 
 namespace Project.Controllers
 {
@@ -51,7 +53,7 @@ namespace Project.Controllers
         {
 
            
-               
+               //Return the cart and address to the view.
 
             ViewData["Cart"] = JsonConvert.DeserializeObject<List<Product>>(HttpContext.Session.GetString("cart"));
             ViewBag.Address = HttpContext.Session.GetString("address");
@@ -64,31 +66,57 @@ namespace Project.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> PlaceOrder(string AddressID)
+        public async Task<IActionResult> PlaceOrder(string AddressID, string Email)
         {
             
-            foreach (var item in JsonConvert.DeserializeObject<List<Product>>(HttpContext.Session.GetString("cart")))
-            {
-                
-                WriteToDatabase(item, Int32.Parse(AddressID));
-            }
-          
-            return View();
-        }
-        public async void WriteToDatabase(Product item, int AddressID)
-        {
-           
-            var order = new Order();
+         int totalAmount = 0;
+                int totalPrice = 0;
+                string body = "<h1>The following order</h1>";
+
+                //Send and email with the order and save it to the database
+
+                foreach (var item in JsonConvert.DeserializeObject<List<Product>>(HttpContext.Session.GetString("cart")))
+                {
+                    body += $"<span>X{item.Amount}, {item.Title}, {item.Price}kr  </ span ><br> ";
+                     var order = new Order();
             order.Amount = item.Amount;
             order.ProductID = item.ProductID;
             order.Sum = item.Price;
-            order.AddressID = AddressID;
+            order.AddressID = Int32.Parse(AddressID);
             order.Date = DateTime.Today.ToString("yyyy/MM/dd");
             _context.Add(order);
-            System.Diagnostics.Debug.WriteLine("hej");
             await _context.SaveChangesAsync();
-            
+                    totalAmount += item.Amount;
+                    totalPrice += item.Price;
+                }
+                body += $"<span> {totalAmount} items {totalPrice} kr <span> <h2> will be deilvered to</h2> ";
+
+                var address = JsonConvert.DeserializeObject<Address>(HttpContext.Session.GetString("address"));
+
+                body += $" <span>{address.Street}, {address.Zipcode}, {address.City}, {address.Country}  </ span> ";
+
+
+
+            System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient();
+                var mailMessage = new MailMessage
+                {
+                    From = new MailAddress("mans16160@gmail.com"),
+
+                    Subject = "Order confirmation",
+                    Body = body,
+                    IsBodyHtml = true,
+                };
+                mailMessage.To.Add($"{Email}");
+                smtp.Host = "smtp.gmail.com ";
+                smtp.Port = 587;
+                smtp.EnableSsl = true;
+                NetworkCredential NetworkCred = new NetworkCredential("mans16160@gmail.com", "Tovvtw99!");
+                smtp.UseDefaultCredentials = false;
+                smtp.Credentials = NetworkCred;
+                smtp.Send(mailMessage);
+                return View();
         }
+     
             // GET: Orders/Edit/5
             public async Task<IActionResult> Edit(int? id)
         {

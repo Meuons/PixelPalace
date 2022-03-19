@@ -1,7 +1,7 @@
 ﻿@model Project.Models.User
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Details - User";
 }
 
 <h1>Details</h1>
@@ -25,6 +25,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.UserID">Edit</a> |
+    <a class="hidden" hidden asp-action="Edit" asp-route-id="@Model?.UserID">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>

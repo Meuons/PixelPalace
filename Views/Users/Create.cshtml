@@ -1,9 +1,12 @@
 ﻿@model Project.Models.User
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create - User";
+    var message = "";
 }
-
+@if(ViewBag.duplicateUser == true){
+    message = "A user with that username already exists. Please choose antoher one";
+}
 <h1>Create</h1>
 
 <h4>User</h4>
@@ -26,6 +29,7 @@
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
+        <span>@message</span>
     </div>
 </div>
 

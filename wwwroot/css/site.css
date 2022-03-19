@@ -2,17 +2,50 @@ html {
   font-size: 14px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 501px) {
   html {
     font-size: 16px;
   }
+  .thumbnail{
+  width: 200px;
+}
+
+}
+@media (max-width: 500px) {
+  .thumbnail{
+    width: 100px;
+  }
+  .btn{
+max-width: 50px;
+}
 }
 
 html {
   position: relative;
   min-height: 100%;
 }
+nav{
+  background-color:#ff7c00;
+  font-family: 'Press Start 2P', cursive;
+}
+footer{
 
+    background-color:#ff7c00;
+}
+.product{
+border: 1px solid white;
+width: 100px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {
   margin-bottom: 60px;
+  font-family: Calibri,'Trebuchet MS',sans-serif;
+  background-color: rgb(42, 42, 42);
+  color: rgb(207, 207, 207);
+}
+.table{
+  color: unset;
+}
+img{
+  width: 300px;
 }
