@@ -9,7 +9,7 @@ if (localStorage.getItem("login") == "true") {
         console.log(elements[i].innerHTML)
         elements[i].removeAttribute("hidden");
     }
-    document.getElementById("login").setAttribute("hidden", true)
+    document.getElementById("login").hidden = true;
 }
 else {
     document.getElementById("login").removeAttribute("hidden");

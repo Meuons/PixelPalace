@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dokument\\ASP.net-webshop\\Project.csproj": {}
+    "C:\\Users\\Måns\\Entity-Framework-Core-webshop\\Project.csproj": {}
   },
   "projects": {
-    "D:\\Dokument\\ASP.net-webshop\\Project.csproj": {
+    "C:\\Users\\Måns\\Entity-Framework-Core-webshop\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dokument\\ASP.net-webshop\\Project.csproj",
+        "projectUniqueName": "C:\\Users\\Måns\\Entity-Framework-Core-webshop\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "D:\\Dokument\\ASP.net-webshop\\Project.csproj",
+        "projectPath": "C:\\Users\\Måns\\Entity-Framework-Core-webshop\\Project.csproj",
         "packagesPath": "C:\\Users\\Måns\\.nuget\\packages\\",
-        "outputPath": "D:\\Dokument\\ASP.net-webshop\\obj\\",
+        "outputPath": "C:\\Users\\Måns\\Entity-Framework-Core-webshop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

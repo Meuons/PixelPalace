@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KxSaK8hS6dhOiBcd6cEO+YjLfqzJFvlv43a2gJ8Tg2B0RcdYvT7/8t3f2llN/xaevdSzqPeYeNExDGqHPkTsaA==",
+  "dgSpecHash": "c79R2rzAaUHGIMb9Owwm3JEbv/m+TKawMQMerK9KTIpsW5gGmEKTF8igt8wImek65RrD4f5JTZATd26fPrsIBw==",
   "success": true,
-  "projectFilePath": "D:\\Dokument\\ASP.net-webshop\\Project.csproj",
+  "projectFilePath": "C:\\Users\\Måns\\Entity-Framework-Core-webshop\\Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Måns\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Måns\\.nuget\\packages\\mailkit\\3.1.1\\mailkit.3.1.1.nupkg.sha512",

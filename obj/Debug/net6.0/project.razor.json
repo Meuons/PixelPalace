@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\Dokument\\ASP.net-webshop\\Project.csproj",
+  "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Project.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,158 +16298,148 @@
   "RootNamespace": "Project",
   "Documents": [
     {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Orders\\Index.cshtml",
-      "TargetPath": "Views\\Orders\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Addresses\\Edit.cshtml",
-      "TargetPath": "Views\\Addresses\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Addresses\\Index.cshtml",
-      "TargetPath": "Views\\Addresses\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Products\\Create.cshtml",
-      "TargetPath": "Views\\Products\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Products\\Details.cshtml",
-      "TargetPath": "Views\\Products\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Orders\\Edit.cshtml",
-      "TargetPath": "Views\\Orders\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Users\\Edit.cshtml",
-      "TargetPath": "Views\\Users\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Addresses\\Details.cshtml",
-      "TargetPath": "Views\\Addresses\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Users\\Delete.cshtml",
-      "TargetPath": "Views\\Users\\Delete.cshtml",
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Addresses\\Edit.cshtml",
+      "TargetPath": "Views\\Addresses\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Orders\\Delete.cshtml",
-      "TargetPath": "Views\\Orders\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Orders\\Details.cshtml",
-      "TargetPath": "Views\\Orders\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Users\\Create.cshtml",
-      "TargetPath": "Views\\Users\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Orders\\Create.cshtml",
-      "TargetPath": "Views\\Orders\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Products\\Delete.cshtml",
-      "TargetPath": "Views\\Products\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Addresses\\Delete.cshtml",
-      "TargetPath": "Views\\Addresses\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Products\\Cart.cshtml",
-      "TargetPath": "Views\\Products\\Cart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Products\\Edit.cshtml",
-      "TargetPath": "Views\\Products\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Users\\Details.cshtml",
-      "TargetPath": "Views\\Users\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Orders\\PlaceOrder.cshtml",
-      "TargetPath": "Views\\Orders\\PlaceOrder.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Users\\Logout.cshtml",
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Users\\Logout.cshtml",
       "TargetPath": "Views\\Users\\Logout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Users\\Index.cshtml",
-      "TargetPath": "Views\\Users\\Index.cshtml",
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Products\\Cart.cshtml",
+      "TargetPath": "Views\\Products\\Cart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Addresses\\Create.cshtml",
-      "TargetPath": "Views\\Addresses\\Create.cshtml",
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Products\\Edit.cshtml",
+      "TargetPath": "Views\\Products\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Products\\Index.cshtml",
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Products\\Index.cshtml",
       "TargetPath": "Views\\Products\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Orders\\PlaceOrder.cshtml",
+      "TargetPath": "Views\\Orders\\PlaceOrder.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Dokument\\ASP.net-webshop\\Views\\Users\\Login.cshtml",
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Orders\\Edit.cshtml",
+      "TargetPath": "Views\\Orders\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Users\\Index.cshtml",
+      "TargetPath": "Views\\Users\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Addresses\\Delete.cshtml",
+      "TargetPath": "Views\\Addresses\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Users\\Edit.cshtml",
+      "TargetPath": "Views\\Users\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Addresses\\Index.cshtml",
+      "TargetPath": "Views\\Addresses\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Orders\\Index.cshtml",
+      "TargetPath": "Views\\Orders\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Addresses\\Create.cshtml",
+      "TargetPath": "Views\\Addresses\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Orders\\Delete.cshtml",
+      "TargetPath": "Views\\Orders\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Addresses\\Details.cshtml",
+      "TargetPath": "Views\\Addresses\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Products\\Delete.cshtml",
+      "TargetPath": "Views\\Products\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Orders\\Details.cshtml",
+      "TargetPath": "Views\\Orders\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Products\\Details.cshtml",
+      "TargetPath": "Views\\Products\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Users\\Details.cshtml",
+      "TargetPath": "Views\\Users\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Users\\Delete.cshtml",
+      "TargetPath": "Views\\Users\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Users\\Login.cshtml",
       "TargetPath": "Views\\Users\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Users\\Create.cshtml",
+      "TargetPath": "Views\\Users\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Orders\\Create.cshtml",
+      "TargetPath": "Views\\Orders\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Måns\\Entity-Framework-Core-webshop\\Views\\Products\\Create.cshtml",
+      "TargetPath": "Views\\Products\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],

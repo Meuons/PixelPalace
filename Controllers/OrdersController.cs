@@ -110,7 +110,7 @@ namespace Project.Controllers
                 smtp.Host = "smtp.gmail.com ";
                 smtp.Port = 587;
                 smtp.EnableSsl = true;
-                NetworkCredential NetworkCred = new NetworkCredential("mans16160@gmail.com", "*****");
+                NetworkCredential NetworkCred = new NetworkCredential("mans16160@gmail.com", "****");
                 smtp.UseDefaultCredentials = false;
                 smtp.Credentials = NetworkCred;
                 smtp.Send(mailMessage);

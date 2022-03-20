@@ -8,133 +8,125 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Project
 build_property.RootNamespace = Project
-build_property.ProjectDir = D:\Dokument\ASP.net-webshop\
+build_property.ProjectDir = C:\Users\Måns\Entity-Framework-Core-webshop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Dokument\ASP.net-webshop
+build_property.MSBuildProjectDirectory = C:\Users\Måns\Entity-Framework-Core-webshop
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Dokument/ASP.net-webshop/Views/Addresses/Create.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Addresses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Addresses/Delete.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Addresses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Addresses/Details.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Addresses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Addresses/Edit.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Addresses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Addresses/Index.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Addresses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Dokument/ASP.net-webshop/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Dokument/ASP.net-webshop/Views/Orders/Create.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Orders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Orders/Delete.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Orders/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Orders/Details.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Orders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Orders/Edit.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Orders/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Orders/Index.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Orders/PlaceOrder.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Orders/PlaceOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFBsYWNlT3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Products/Cart.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Products/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Products/Create.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Products/Delete.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Products/Details.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Products/Edit.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Products/Index.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Shared/Error.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Users/Create.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Users/Delete.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Users/Details.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Users/Edit.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Users/Index.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Users/Login.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/Users/Logout.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/Users/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/_ViewImports.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dokument/ASP.net-webshop/Views/_ViewStart.cshtml]
+[C:/Users/Måns/Entity-Framework-Core-webshop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Dokument/ASP.net-webshop/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-9q8ibpt6yd
