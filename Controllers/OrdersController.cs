@@ -100,7 +100,7 @@ namespace Project.Controllers
             System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient();
                 var mailMessage = new MailMessage
                 {
-                    From = new MailAddress("mans16160@gmail.com"),
+                    From = new MailAddress("example@gmail.com"),
 
                     Subject = "Order confirmation",
                     Body = body,
@@ -110,7 +110,8 @@ namespace Project.Controllers
                 smtp.Host = "smtp.gmail.com ";
                 smtp.Port = 587;
                 smtp.EnableSsl = true;
-                NetworkCredential NetworkCred = new NetworkCredential("mans16160@gmail.com", "****");
+                //insert a smtp configured Google account here
+                NetworkCredential NetworkCred = new NetworkCredential("example@gmail.com", "password");
                 smtp.UseDefaultCredentials = false;
                 smtp.Credentials = NetworkCred;
                 smtp.Send(mailMessage);
